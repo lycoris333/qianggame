@@ -1,0 +1,25 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# ==========================================
+# 补充：C# 与 编译产物忽略（针对你的项目技术栈）
+# ==========================================
+.mono/
+data_*/
+mono_crash_*.log
+*.csproj
+*.sln
+
+# C++ / GDExtension 编译临时文件与二进制文件
+bin/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# 系统缓存
+.DS_Store
+Thumbs.db
